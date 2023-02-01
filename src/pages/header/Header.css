@@ -1,0 +1,19 @@
+.header{
+    padding-top: 1.5em;
+    display: inline-block;
+}
+
+/* .header ul{
+    float: right;
+    padding-right: 20%;
+  } */
+  .header ul li{
+      display: inline-block;
+      line-height: 80px;
+      margin: 0 10px;
+  }
+  .header ul li a{
+      
+      color:#5a6e79;
+      
+  }
