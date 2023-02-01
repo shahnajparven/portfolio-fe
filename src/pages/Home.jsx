@@ -1,12 +1,15 @@
+import { Box } from "@mui/material";
 import React from "react";
+import Banner from "./banner/Banner";
 import Header from "./header/Header";
 import "./Home.css";
 
 const Home = () => {
   return (
-    <div class='container'>
+    <Box px={12} className="container">
       <Header/>
-    </div>
+      <Banner/>
+    </Box>
   );
 };
 

@@ -1,3 +1,67 @@
 .container{
-    padding-left: 6rem;
+    background: rgb(242,242,255);
+    background: linear-gradient(33deg, rgba(242,242,255,1) 0%, rgba(235,249,255,1) 100%);
+    overflow: hidden;
 }
+
+.dynamic-txt {
+    overflow: hidden;
+    margin: 0;
+    display: inline-block;
+  }
+  .dynamic-txt {
+    
+    list-style: none;
+    animation: slide 12s steps(4) infinite;
+  }
+  
+  @keyframes slide {
+    100% {
+      top: -360px;
+    }
+  }
+  .dynamic-txt b {
+    position: relative;
+  }
+  .dynamic-txt  b::after {
+    content: "";
+    position: absolute;
+    top:-5%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+      33deg,
+      rgba(242, 242, 255, 1) 0%,
+      rgba(235, 249, 255, 1) 100%
+    );
+    border-left: 2px solid #fca61f;
+    animation: typing 3s steps(10) infinite;
+  }
+  @keyframes typing {
+    40%,
+    60% {
+      left: calc(100% + 30px);
+    }
+    100% {
+      left: 0;
+    }
+  }
+
+  .banner-text span{
+    font-weight: bold;
+    color:#3f396d;
+    font-size: 3rem;
+    
+  }
+  .banner-text b{
+    color:#6f34fe;
+    font-size: 5rem;
+  }
+  .banner-text p{
+    color:#3f396d;
+    font-size: 1.2rem;
+  }
+  .hire-me a {
+    color: white;
+  }
