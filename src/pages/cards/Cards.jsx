@@ -1,26 +1,20 @@
+import { Box, Typography } from "@mui/material";
 import React from "react";
 import profile from "../../assets/profile.png";
-import "../Home.css";
+import "../cards/Cards.css";
 
 const Cards = () => {
   return (
-    <div>
-      <div
-        className="banner-right-con wow slideInRight"
-        id="banner-right-con"
-      >
-        <figure class="mb-0">
-          <img
-            className="rituimg"
-            src={profile}
-            alt="banner-right-img"
-            id="banner-right-img"
-          />
-        </figure>
-        <div className="cursor"></div>
-        <div className="cursor2"></div>
-      </div>
-    </div>
+    <Box mt={10} width="100%">
+      <Box >
+        <h4 className="experience">My Expertise</h4>
+        <h2 class="mb-0">
+          Provide Wide Range of
+          <br />
+          Digital Services
+        </h2>
+      </Box>
+    </Box>
   );
 };
 
