@@ -130,7 +130,7 @@
 }
 
 
- /* @media (min-width: 576px) {
+ @media (min-width: 576px) {
   .banner-text b {
     justify-content: center;
     font-size: 3rem;
@@ -152,4 +152,4 @@
     justify-content: center;
    }
 
-} */
+}
