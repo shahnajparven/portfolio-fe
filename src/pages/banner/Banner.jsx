@@ -1,4 +1,4 @@
-import { Box } from "@mui/system";
+import { Box, Link, Typography } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import profile from "../../assets/profile.png";
 import "../Home.css";
@@ -20,12 +20,12 @@ const Banner = ({ scaling }) => {
   }, []);
 
   return (
-    <Box display="flex" gap={1}>
-      <Box mt={15} className="banner-text">
+    <Box display="flex" gap={2} justifyContent='center' flexDirection={{lg:"row",md:'column',sm:'column',xs:'column'}}>
+      <Box width='100%' mt={{lg:15,md:10,sm:2,xs:2}} className="banner-text" display='flex' flexDirection='column' justifyContent='center'>
         <Box className="banner-heading">
-          <Box className="dynamic-txt">
+          <Box className="dynamic-txt" >
             <Box my={3}>
-              <span>Hello, I Am</span>
+              <span >Hello, I Am</span>
             </Box>
             <b>Shahnaj Parven</b>
           </Box>
@@ -34,14 +34,14 @@ const Banner = ({ scaling }) => {
             Computer Science Engineering (CSE).
           </p>
         </Box>
-        <Box display="flex" gap={3} mt={5}>
+        <Box display="flex" gap={3} mt={5} justifyContent={{lg:'left',md:'left',sm:'left',xs:'center'}}>
           <Box
             px={5}
             py={1.5}
             bgcolor="#fca61f"
-            color="#fffff"
             borderRadius="30px"
             className="hire-me"
+            color='white'
           >
             <a href="#Contact">Hire Me</a>
           </Box>
@@ -53,12 +53,12 @@ const Banner = ({ scaling }) => {
         </Box>
       </Box>
     
-      <Box className="banner-right-con wow slideInRight" id="banner-right-con">
+      <Box display="flex" justifyContent='center' className="banner-right-con wow slideInRight" id="banner-right-con">
         <img
           src={profile}
           height={568}
           overflow="hidden"
-          width={485}
+          width={{lg:485,sm:'100%', xs:'100%'}}
           alt="banner-right-img"
           id="banner-right-img"
         />

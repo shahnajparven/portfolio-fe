@@ -12,8 +12,9 @@ const Header = () => {
           </span>
         </h5>
       </Box>
-      <Box display='flex' mt={2.5} gap={2}>
-      <Box className='header-list'>
+      <Box mt={6.5} fontWeight={100} display={{xs:'flex',sm:'flex', lg:'none'}}>Menu</Box>
+      <Box mt={2.5} gap={2} display={{xs:'none',sm:'none', lg:'flex'}}>
+      <Box className='header-list' >
         <ul>
           <li >
             <a href="index.html">

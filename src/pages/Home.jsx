@@ -7,7 +7,7 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <Box px={12} className="container">
+    <Box px={{lg:12,md:12,sm:2,xs:2}} className="container">
       <Header/>
       <Banner/>
       <Cards/>

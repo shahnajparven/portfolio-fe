@@ -6,13 +6,16 @@ import "../cards/Cards.css";
 const Cards = () => {
   return (
     <Box mt={10} width="100%">
-      <Box >
-        <h4 className="experience">My Expertise</h4>
-        <h2 class="mb-0">
+      <Box>
+        <h4>My Expertise</h4>
+        <Box display='flex' justifyContent='center' gap={2}>
+        <Box>
           Provide Wide Range of
-          <br />
+          </Box>
+         <Box>
           Digital Services
-        </h2>
+        </Box>
+        </Box>
       </Box>
     </Box>
   );
