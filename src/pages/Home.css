@@ -136,6 +136,22 @@
     rgba(242, 242, 255, 1) 0%,
     rgba(235, 249, 255, 1) 100%
   );
+
+  
+}
+.expertise-card{
+  background: #fff;
+  border: 1px solid transparent;
+  box-shadow: 0 0 85px 0 #e9eefc;
+ 
+}
+.expertise-card:hover{
+border-color: #6f34fe;
+transform: translateY(-8px);
+transition: transform .4s linear;
+}
+.skill{
+  background:#e9eefc;
 }
 
  @media (max-width: 500px) {

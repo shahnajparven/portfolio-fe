@@ -1,10 +1,11 @@
 import { Box } from "@mui/material";
 import React from "react";
-import Expertise from "../expertise/Expertise";
+import About from "./about/About";
 import Banner from "./banner/Banner";
-import Cards from "./cards/Cards";
+import Expertise from "./expertise/Expertise";
 import Header from "./header/Header";
 import "./Home.css";
+import Skill from "./skills/Skill";
 
 const Home = () => {
   return (
@@ -14,8 +15,11 @@ const Home = () => {
       <Banner/>
       </Box>
       <Box px={{lg:12,md:12,sm:2,xs:2}}>
+        <About/>
       <Expertise/>
+    
       </Box>
+      <Skill/>
     </Box>
   );
 };
