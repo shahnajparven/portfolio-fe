@@ -1,6 +1,7 @@
 import { Box, Button, Typography } from "@mui/material";
 import React from "react";
 import "./Header.css";
+import MenuIcon from '@mui/icons-material/Menu';
 const Header = () => {
   return (
     <Box display='flex' justifyContent='space-between' className='header'>
@@ -12,7 +13,7 @@ const Header = () => {
           </span>
         </h5>
       </Box>
-      <Box mt={6.5} fontWeight={100} display={{xs:'flex',sm:'flex', lg:'none'}}>Menu</Box>
+      <Box mt={5} display={{xs:'flex',sm:'flex', lg:'none'}} color="#fca61f"><MenuIcon fontSize="large" /></Box>
       <Box mt={2.5} gap={2} display={{xs:'none',sm:'none', lg:'flex'}}>
       <Box className='header-list' >
         <ul>

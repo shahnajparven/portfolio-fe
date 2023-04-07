@@ -1,4 +1,5 @@
 import { Box, Link, Typography } from "@mui/material";
+
 import React, { useEffect, useState } from "react";
 import profile from "../../assets/profile.png";
 import "../Home.css";
@@ -21,10 +22,10 @@ const Banner = ({ scaling }) => {
 
   return (
     <Box display="flex" gap={2} justifyContent='center' flexDirection={{lg:"row",md:'column',sm:'column',xs:'column'}}>
-      <Box width='100%' mt={{lg:15,md:10,sm:2,xs:2}} className="banner-text" display='flex' flexDirection='column' justifyContent='center'>
-        <Box className="banner-heading">
-          <Box className="dynamic-txt" >
-            <Box my={3}>
+      <Box width='100%' mt={{lg:15,md:10,sm:2,xs:2}} className="banner-text">
+        <Box className="banner-heading" >
+          <Box className="dynamic-txt">
+            <Box my={3} >
               <span >Hello, I Am</span>
             </Box>
             <b>Shahnaj Parven</b>
