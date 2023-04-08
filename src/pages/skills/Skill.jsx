@@ -34,7 +34,7 @@ const Skill = () => {
                   alignItems="center"
                 >
                   <Box>
-                    <Typography variant="h5" p={2} color='#6f34fe' fontWeight='bold'>95%</Typography>
+                    <Typography variant="h5" p={2} color='#6f34fe' fontWeight='bold'>95<Typography variant='span' color='#fca61f'>%</Typography></Typography>
                     <Typography variant="span" p={1} color="#3f396d">Frontend</Typography>
                   </Box>
                 </Box>
@@ -50,7 +50,7 @@ const Skill = () => {
                   alignItems="center"
                 >
                    <Box>
-                    <Typography variant="h5" p={2} color='#6f34fe' fontWeight='bold'>80%</Typography>
+                    <Typography variant="h5" p={2} color='#6f34fe' fontWeight='bold'>80<Typography variant='span' color='#fca61f'>%</Typography></Typography>
                     <Typography variant="span" p={1} color="#3f396d">Backend</Typography>
                   </Box>
                   
@@ -78,7 +78,7 @@ const Skill = () => {
                   alignItems="center"
                 >
                    <Box>
-                    <Typography variant="h5" p={2} color='#6f34fe' fontWeight='bold'>75%</Typography>
+                    <Typography variant="h5" p={2} color='#6f34fe' fontWeight='bold'>75<Typography variant='span' color='#fca61f'>%</Typography></Typography>
                     <Typography variant="span" p={1} color="#3f396d">Languages</Typography>
                   </Box>
                  
@@ -95,7 +95,7 @@ const Skill = () => {
                   alignItems="center"
                 >
                     <Box>
-                    <Typography variant="h5" p={2} color='#6f34fe' fontWeight='bold'>70%</Typography>
+                    <Typography variant="h5" p={2} color='#6f34fe' fontWeight='bold'>70<Typography variant='span' color='#fca61f'>%</Typography></Typography>
                     <Typography variant="span" p={1} color="#3f396d">Others</Typography>
                   </Box>
                 </Box>
