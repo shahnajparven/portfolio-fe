@@ -57,10 +57,8 @@
   font-size: 3rem;
   display: flex;
   justify-content: flex-start;
-
-
 }
-  
+
 .banner-text b {
   display: flex;
   justify-content: flex-start;
@@ -105,7 +103,6 @@
   animation: right-mover 1s ease-in-out infinite alternate;
 }
 
-
 .large_circle,
 .small_circle {
   width: 40px;
@@ -125,36 +122,41 @@
   width: 20px;
   height: 20px;
   border-radius: 100%;
-  background-color: #fca61f; 
-  
+  background-color: #fca61f;
 }
 
-.expertise{
+.expertise {
   background: rgb(242, 242, 255);
   background: linear-gradient(
     33deg,
     rgba(242, 242, 255, 1) 0%,
     rgba(235, 249, 255, 1) 100%
   );
-
-  
 }
-.expertise-card{
+.expertise-card {
   background: #fff;
   border: 1px solid transparent;
   box-shadow: 0 0 85px 0 #e9eefc;
- 
 }
-.expertise-card:hover{
-border-color: #6f34fe;
-transform: translateY(-8px);
-transition: transform .4s linear;
+.expertise-card:hover {
+  border-color: #6f34fe;
+  transform: translateY(-8px);
+  transition: transform 0.4s linear;
 }
-.skill{
-  background:#e9eefc;
+.skill {
+  background: #e9eefc;
+}
+.skill-card {
+  border: 1px solid transparent;
 }
 
- @media (max-width: 500px) {
+.skill-card:hover {
+  border-color: #6f34fe;
+  transform: translateY(-8px);
+  transition: transform 0.4s linear;
+}
+
+@media (max-width: 500px) {
   .banner-text b {
     justify-content: center;
     font-size: 3rem;
@@ -162,22 +164,21 @@ transition: transform .4s linear;
   .banner-text span {
     justify-content: center;
     font-size: 2rem;
-   }
+  }
   .banner-text p {
     font-size: 1rem;
     justify-content: center;
   }
 
-  .dynamic-txt{
-    display:flex;
+  .dynamic-txt {
+    display: flex;
     flex-direction: column;
-     justify-content:center;
+    justify-content: center;
   }
 }
 
-  @media (max-width: 400px) {
-    .banner-text b {
-      font-size: 2rem;
-    }
-   
-} 
+@media (max-width: 400px) {
+  .banner-text b {
+    font-size: 2rem;
+  }
+}

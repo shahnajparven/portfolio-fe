@@ -9,7 +9,7 @@ import Skill from "./skills/Skill";
 
 const Home = () => {
   return (
-    <Box >
+    <Box>
     <Box className="container" px={{lg:12,md:12,sm:2,xs:2}}>
       <Header/>
       <Banner/>
@@ -19,7 +19,9 @@ const Home = () => {
       <Expertise/>
     
       </Box>
+      <Box className='skill'>
       <Skill/>
+      </Box>
     </Box>
   );
 };
