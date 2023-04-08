@@ -156,6 +156,42 @@
   transition: transform 0.4s linear;
 }
 
+.project-card {
+  background: #fff;
+  border: 1px solid transparent;
+  box-shadow: 0 0 85px 0 #e9eefc;
+  border-radius: 10px;
+}
+.half-circle{
+  overflow: hidden;
+}
+
+
+.half-circle::before{
+  content: "";
+    width: 210px;
+    height: 450px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  background: url(../assets/circle-left-img.png) no-repeat top left;
+  animation: mover 1s infinite alternate;
+  -webkit-animation: mover 1s infinite alternate;
+}
+
+/* .half-circle{
+  animation: right-mover 1s ease-in-out infinite alternate;
+} */
+
+.about-image{
+  transition: 0.3s;
+  z-index: 2;
+}
+.about-image:hover{
+  
+  transform: scale(1.08);
+}
+
 @media (max-width: 500px) {
   .banner-text b {
     justify-content: center;

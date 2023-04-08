@@ -31,8 +31,7 @@ const Banner = ({ scaling }) => {
             <b>Shahnaj Parven</b>
           </Box>
           <p>
-            I am a Full-Stack MERN Developer. I have completed my B.sc from
-            Computer Science Engineering (CSE).
+            I am a Full-Stack MERN Developer.
           </p>
         </Box>
         <Box display="flex" gap={3} mt={5} justifyContent={{lg:'left',md:'left',sm:'left',xs:'center'}}>

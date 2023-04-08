@@ -5,6 +5,7 @@ import Banner from "./banner/Banner";
 import Expertise from "./expertise/Expertise";
 import Header from "./header/Header";
 import "./Home.css";
+import Projects from "./project/Projects";
 import Skill from "./skills/Skill";
 
 const Home = () => {
@@ -14,13 +15,17 @@ const Home = () => {
       <Header/>
       <Banner/>
       </Box>
-      <Box px={{lg:12,md:12,sm:2,xs:2}}>
+     
         <About/>
+        <Box px={{lg:12,md:12,sm:2,xs:2}}>
       <Expertise/>
     
       </Box>
       <Box className='skill'>
       <Skill/>
+      </Box> 
+       <Box px={{lg:12,md:12,sm:2,xs:2}}>
+      <Projects/>
       </Box>
     </Box>
   );
