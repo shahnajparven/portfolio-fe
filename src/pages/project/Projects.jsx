@@ -21,19 +21,59 @@ const Projects = () => {
         <Box p={2} mt={2}>
           <Grid container spacing={5}>
             <Grid item lg={4} md={6} xs={12}>
-              <Box className='project-card' p={5}>card1</Box>
+              <Box className="project-card" p={2} width="100%">
+                <Box
+                  bgcolor="red"
+                  width="100%"
+                  height={300}
+                  display="flex"
+                  justifyContent="center"
+                  alignItems="center"
+                >
+                  Img
+                </Box>
+                <Box p={5}>details</Box>
+              </Box>
             </Grid>
             <Grid item lg={4} md={6} xs={12}>
-              <Box p={5} className='project-card'>card2</Box>
+              <Box className="project-card" p={2} width="100%">
+                <Box
+                  bgcolor="red"
+                  width="100%"
+                  height={300}
+                  display="flex"
+                  justifyContent="center"
+                  alignItems="center"
+                >
+                  Img
+                </Box>
+                <Box p={5}>details</Box>
+              </Box>
             </Grid>
             <Grid item lg={4} md={6} xs={12}>
-              <Box p={5} className='project-card'>card3</Box>
+              <Box className="project-card" p={2} width="100%">
+                <Box
+                  bgcolor="red"
+                  width="100%"
+                  height={300}
+                  display="flex"
+                  justifyContent="center"
+                  alignItems="center"
+                >
+                  Img
+                </Box>
+                <Box p={5}>details</Box>
+              </Box>
             </Grid>
             <Grid item lg={4} md={6} xs={12}>
-              <Box p={5} className='project-card'>card4</Box>
+              <Box p={5} className="project-card">
+                card4
+              </Box>
             </Grid>
             <Grid item lg={4} md={6} xs={12}>
-              <Box p={5}className='project-card'>card5</Box>
+              <Box p={5} className="project-card">
+                card5
+              </Box>
             </Grid>
           </Grid>
         </Box>
