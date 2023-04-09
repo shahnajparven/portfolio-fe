@@ -1,12 +1,19 @@
-import { Box, Button, TextField, Typography } from "@mui/material";
+import {
+  Box,
+  Button,
+  Stack,
+  TextField,
+  TextareaAutosize,
+  Typography,
+} from "@mui/material";
 import React from "react";
-import LocationOnIcon from '@mui/icons-material/LocationOn';
-import EmailIcon from '@mui/icons-material/Email';
-import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+import LocationOnIcon from "@mui/icons-material/LocationOn";
+import EmailIcon from "@mui/icons-material/Email";
+import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 
 const Contact = () => {
   return (
-    <Box mt={10}>
+    <Box pt={10}>
       <Typography
         color="#6f34fe"
         variant="span"
@@ -20,20 +27,21 @@ const Contact = () => {
       <Typography
         color="#3f396d"
         variant="span"
-        fontSize={35}
+        fontSize={38}
         fontWeight="bold"
         display="flex"
         justifyContent="center"
-        py={4}
+        py={3}
       >
         Any Questions? Feel Free to Contact
       </Typography>
       <Box
         display="flex"
         flexDirection={{ lg: "row", xs: "column" }}
-        gap={2}
+        gap={5}
         width="100%"
-        overflow='hidden'
+        overflow="hidden"
+        py={8}
       >
         <Box
           bgcolor="#6f34fe"
@@ -53,7 +61,7 @@ const Contact = () => {
                 bgcolor="#fca61f"
                 p={2}
               >
-                <LocationOnIcon fontSize="large"/>
+                <LocationOnIcon fontSize="large" />
               </Box>
               <Box>
                 <Typography variant="h5" py={1} fontSize={20} fontWeight="bold">
@@ -75,7 +83,7 @@ const Contact = () => {
                 bgcolor="#fca61f"
                 p={2}
               >
-                <EmailIcon fontSize="large"/>
+                <EmailIcon fontSize="large" />
               </Box>
               <Box>
                 <Typography variant="h5" py={1} fontSize={20} fontWeight="bold">
@@ -98,7 +106,7 @@ const Contact = () => {
                 bgcolor="#fca61f"
                 p={2}
               >
-                <LocalPhoneIcon fontSize="large"/>
+                <LocalPhoneIcon fontSize="large" />
               </Box>
               <Box>
                 <Typography variant="h5" py={1} fontSize={20} fontWeight="bold">
@@ -113,22 +121,49 @@ const Contact = () => {
             </Box>
           </Box>
         </Box>
-        <Box width="70%">
-          <Box>
-          <Box display='flex' gap={2} my={2}>
-          <TextField type="text" p={2} />
-          
-          <TextField type="text" p={2} />
-          </Box>
-          <Box  display='flex' gap={2} my={2}>
-          <TextField type="text" p={2} />
-         
-          <TextField type="text" p={2} />
-          </Box>
-          <TextField type="text" p={2} />
+        <Box width={{lg:'70%',xs:"100%"}}>
+          <Box width='100%'>
+            <Box display="flex" gap={2} my={2} >
+            {/* <TextField type="text" p={2} sx={{ width: '50%' }} borderRadius={5}/>
+            <TextField type="text" p={2} sx={{ width: '50%' }} /> */}
+              <Box
+                className="contact"
+                width= {{lg:'50%',xs:'100%'}}
+              >
+                <TextField type="text" p={2} sx={{ width: '100%' }}  label="Name"/>
+              </Box>
+              <Box className="contact" width= {{lg:'50%',xs:'100%'}}>
+                <TextField type="text" p={2} sx={{ width: '100%' }} label="Email" />
+              </Box>
+            </Box>
+            <Box display="flex" gap={2} my={2} className='contact'>
+            <Box
+                className="contact"
+                width= {{lg:'50%',xs:'100%'}}
+              >
+                <TextField type="text" p={2} sx={{ width: '100%' }}  label="Phone"/>
+              </Box>
+              <Box className="contact" width= {{lg:'50%',xs:'100%'}}>
+                <TextField type="text" p={2} sx={{ width: '100%' }} label="Subject"/>
+              </Box>
+            </Box>
+            <Box className="contact">
+                  <textarea
+                  placeholder="Message"
+                   className="textarea"
+                    type="text"
+                  />
+                 
+            </Box>
+           
+            
+               
+             
           </Box>
           <Box py={2}>
-          <Button variant="contained" sx={{bgcolor:'#fca61f',px:5}}>Submit</Button>
+            <Button variant="contained" sx={{ bgcolor: "#fca61f", px: 5 }}>
+              Submit
+            </Button>
           </Box>
         </Box>
       </Box>

@@ -192,11 +192,21 @@
   transform: scale(1.08);
 }
 .footer{
- padding:10px;
 background: url(../assets/footer-img.png) no-repeat top left; 
 }
 .footer2{
   background: url(../assets/footer-img2.png) no-repeat bottom right;
+}
+
+.contact{
+  background: #fff;
+  border: 1px solid transparent;
+  box-shadow: 0 0 85px 0 #e9eefc;
+  border-radius: 10px;
+}
+.textarea{
+  width: 99%;
+  height: 150px;
 }
 
 @media (max-width: 500px) {
