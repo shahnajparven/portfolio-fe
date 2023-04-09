@@ -191,6 +191,13 @@
   
   transform: scale(1.08);
 }
+.footer{
+ padding:10px;
+background: url(../assets/footer-img.png) no-repeat top left; 
+}
+.footer2{
+  background: url(../assets/footer-img2.png) no-repeat bottom right;
+}
 
 @media (max-width: 500px) {
   .banner-text b {

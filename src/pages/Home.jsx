@@ -7,6 +7,8 @@ import Header from "./header/Header";
 import "./Home.css";
 import Projects from "./project/Projects";
 import Skill from "./skills/Skill";
+import Contact from "./contact/Contact";
+import Footer from "./footer/Footer";
 
 const Home = () => {
   return (
@@ -26,6 +28,10 @@ const Home = () => {
       </Box> 
        <Box px={{lg:12,md:12,sm:2,xs:2}}>
       <Projects/>
+      <Contact/>
+      </Box>
+      <Box>
+        <Footer/>
       </Box>
     </Box>
   );
