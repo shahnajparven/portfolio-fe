@@ -121,47 +121,101 @@ const Contact = () => {
             </Box>
           </Box>
         </Box>
-        <Box width={{lg:'70%',xs:"100%"}}>
-          <Box width='100%'>
-            <Box display="flex" gap={2} my={2} >
-            {/* <TextField type="text" p={2} sx={{ width: '50%' }} borderRadius={5}/>
+        <Box width={{ lg: "70%", xs: "100%" }}>
+          <Box width="100%">
+            <Box display="flex" gap={2} my={2}>
+              {/* <TextField type="text" p={2} sx={{ width: '50%' }} borderRadius={5}/>
             <TextField type="text" p={2} sx={{ width: '50%' }} /> */}
               <Box
                 className="contact"
-                width= {{lg:'50%',xs:'100%'}}
+                width={{ lg: "50%", xs: "100%" }}
               >
-                <TextField type="text" p={2} sx={{ width: '100%' }}  label="Name"/>
+                <TextField
+                  variant="outlined"
+                  type="text"
+                  p={2}
+                  sx={{
+                    "& .MuiOutlinedInput-root": {
+                      "& > fieldset": {
+                        borderRadius: 8,
+                        border:'none'
+                      }
+                    }
+                    ,width:'100%'
+                  }}
+                  InputProps={{ disableUnderline: true }}
+                  placeholder="Name"
+                />
               </Box>
-              <Box className="contact" width= {{lg:'50%',xs:'100%'}}>
-                <TextField type="text" p={2} sx={{ width: '100%' }} label="Email" />
+              <Box className="contact" width={{ lg: "50%", xs: "100%" }}>
+                <TextField
+                  type="text"
+                  p={2}
+                  sx={{
+                    "& .MuiOutlinedInput-root": {
+                      "& > fieldset": {
+                        borderRadius: 8,
+                        border:'none'
+                      }
+                    }
+                    ,width:'100%'
+                  }}
+                  placeholder="Email"
+                />
               </Box>
             </Box>
-            <Box display="flex" gap={2} my={2} className='contact'>
-            <Box
-                className="contact"
-                width= {{lg:'50%',xs:'100%'}}
-              >
-                <TextField type="text" p={2} sx={{ width: '100%' }}  label="Phone"/>
+            <Box display="flex" gap={2} my={2}>
+              <Box className="contact" width={{ lg: "50%", xs: "100%" }}>
+                <TextField
+                  type="text"
+                  p={2}
+                  sx={{
+                    "& .MuiOutlinedInput-root": {
+                      "& > fieldset": {
+                        borderRadius: 8,
+                        border:'none'
+                      }
+                    }
+                    ,width:'100%'
+                  }}
+                  placeholder="Phone"
+                />
               </Box>
-              <Box className="contact" width= {{lg:'50%',xs:'100%'}}>
-                <TextField type="text" p={2} sx={{ width: '100%' }} label="Subject"/>
+              <Box className="contact" width={{ lg: "50%", xs: "100%" }}>
+                <TextField
+                  type="text"
+                  p={2}
+                  sx={{
+                    "& .MuiOutlinedInput-root": {
+                      "& > fieldset": {
+                        borderRadius: 8,
+                        border:'none'
+                      }
+                    }
+                    ,width:'100%'
+                  }}
+                  placeholder="Subject"
+                />
               </Box>
             </Box>
             <Box className="contact">
-                  <textarea
-                  placeholder="Message"
-                   className="textarea"
-                    type="text"
-                  />
-                 
-            </Box>
-           
-            
+              <textarea
+               sx={{
+                "& .MuiOutlinedInput-root": {
+                  "& > fieldset": {
+                    borderRadius: 8,
+                    border:'none'
+                  }
+                }
                
-             
+              }}
+                className="textarea"
+                type="text"
+              />
+            </Box>
           </Box>
-          <Box py={2}>
-            <Button variant="contained" sx={{ bgcolor: "#fca61f", px: 5 }}>
+          <Box py={2} display='flex' justifyContent='center'>
+            <Button variant="contained" sx={{ bgcolor: "#fca61f", px: 8,py:1.5,borderRadius:8 }}>
               Submit
             </Button>
           </Box>

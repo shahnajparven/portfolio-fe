@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Typography } from "@mui/material";
+import { Button, Typography } from "@mui/material";
 import { Box } from "@mui/material";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
@@ -9,7 +9,7 @@ const Projects = () => {
     <Box mt={8} width="100%">
       <Box>
         <Typography
-          color="#6f34fe"
+          color="#3f396d"
           variant="span"
           fontSize={30}
           fontWeight="bold"
@@ -21,10 +21,10 @@ const Projects = () => {
         <Box p={2} mt={2}>
           <Grid container spacing={5}>
             <Grid item lg={4} md={6} xs={12}>
-              <Box className="project-card" p={2} width="100%">
+              <Box className="project-card" p={2}>
                 <Box
-                  bgcolor="red"
-                  width="100%"
+                  bgcolor="#3f396d"
+                  // width="100%"
                   height={300}
                   display="flex"
                   justifyContent="center"
@@ -32,14 +32,26 @@ const Projects = () => {
                 >
                   Img
                 </Box>
-                <Box p={5}>details</Box>
+                <Box py={5}>
+                  <Typography
+                    variant="h5"
+                    fontSize={20}
+                    fontWeight="bold"
+                    color="#3f396d"
+                  >
+                    Online House Renting Platfrom
+                  </Typography>
+                  <Box py={1}>
+                    <Button variant="contained">React</Button>{" "}
+                    <Button variant="contained">React</Button>
+                  </Box>
+                </Box>
               </Box>
             </Grid>
             <Grid item lg={4} md={6} xs={12}>
-              <Box className="project-card" p={2} width="100%">
+              <Box className="project-card" p={2}>
                 <Box
-                  bgcolor="red"
-                  width="100%"
+                  bgcolor="#3f396d"
                   height={300}
                   display="flex"
                   justifyContent="center"
@@ -47,14 +59,27 @@ const Projects = () => {
                 >
                   Img
                 </Box>
-                <Box p={5}>details</Box>
+                <Box py={5}>
+                  {" "}
+                  <Typography
+                    variant="h5"
+                    fontSize={20}
+                    fontWeight="bold"
+                    color="#3f396d"
+                  >
+                    Online House Renting Platfrom
+                  </Typography>
+                  <Box py={1}>
+                    <Button variant="contained">React</Button>{" "}
+                    <Button variant="contained">React</Button>
+                  </Box>
+                </Box>
               </Box>
             </Grid>
             <Grid item lg={4} md={6} xs={12}>
-              <Box className="project-card" p={2} width="100%">
+              <Box className="project-card" p={2}>
                 <Box
-                  bgcolor="red"
-                  width="100%"
+                  bgcolor="#3f396d"
                   height={300}
                   display="flex"
                   justifyContent="center"
@@ -62,17 +87,75 @@ const Projects = () => {
                 >
                   Img
                 </Box>
-                <Box p={5}>details</Box>
+                <Box py={5}>
+                  {" "}
+                  <Typography
+                    variant="h5"
+                    fontSize={20}
+                    fontWeight="bold"
+                    color="#3f396d"
+                  >
+                    Online House Renting Platfrom
+                  </Typography>
+                  <Box py={1}>
+                    <Button variant="contained">React</Button>{" "}
+                    <Button variant="contained">React</Button>
+                  </Box>
+                </Box>
               </Box>
             </Grid>
             <Grid item lg={4} md={6} xs={12}>
-              <Box p={5} className="project-card">
-                card4
+              <Box className="project-card" p={2}>
+                <Box
+                  bgcolor="#3f396d"
+                  height={300}
+                  display="flex"
+                  justifyContent="center"
+                  alignItems="center"
+                >
+                  Img
+                </Box>
+                <Box py={5}>
+                  <Typography
+                    variant="h5"
+                    fontSize={20}
+                    fontWeight="bold"
+                    color="#3f396d"
+                  >
+                    Online House Renting Platfrom
+                  </Typography>
+                  <Box py={1}>
+                    <Button variant="contained">React</Button>{" "}
+                    <Button variant="contained">React</Button>
+                  </Box>
+                </Box>
               </Box>
             </Grid>
             <Grid item lg={4} md={6} xs={12}>
-              <Box p={5} className="project-card">
-                card5
+              <Box p={2} className="project-card">
+                <Box
+                  bgcolor="#3f396d"
+                  height={300}
+                  display="flex"
+                  justifyContent="center"
+                  alignItems="center"
+                >
+                  Img
+                </Box>
+                <Box py={5}>
+                  <Typography
+                    variant="h5"
+                    fontSize={20}
+                    fontWeight="bold"
+                    color="#3f396d"
+                  >
+                    Online House Renting Platfrom
+                  </Typography>
+                  <Box py={1}>
+                    <Button variant="contained">React</Button>{" "}
+                    <Button variant="contained">React</Button>
+                  </Box>
+                </Box>
               </Box>
             </Grid>
           </Grid>

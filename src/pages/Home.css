@@ -199,14 +199,19 @@ background: url(../assets/footer-img.png) no-repeat top left;
 }
 
 .contact{
-  background: #fff;
-  border: 1px solid transparent;
+   background: #fffF;
   box-shadow: 0 0 85px 0 #e9eefc;
-  border-radius: 10px;
+  border-radius: 30px;
+}
+.contact:hover{
+ border: 1px solid #6f34fe;
 }
 .textarea{
   width: 99%;
-  height: 150px;
+  height: 153px;
+  border-radius: 35px;
+  border: none;
+  outline: none;
 }
 
 @media (max-width: 500px) {
