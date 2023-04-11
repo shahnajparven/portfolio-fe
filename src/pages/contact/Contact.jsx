@@ -27,7 +27,7 @@ const Contact = () => {
       <Typography
         color="#3f396d"
         variant="span"
-        fontSize={38}
+        fontSize={40}
         fontWeight="bold"
         display="flex"
         justifyContent="center"

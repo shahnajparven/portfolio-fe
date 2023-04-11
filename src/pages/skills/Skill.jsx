@@ -10,7 +10,7 @@ const Skill = () => {
             my={5}
             color="#6f34fe"
             variant="span"
-            fontSize={25}
+            fontSize={20}
             fontWeight="bold"
             display="flex"
             justifyContent="center"
