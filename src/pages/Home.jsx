@@ -12,28 +12,24 @@ import Footer from "./footer/Footer";
 
 const Home = () => {
   return (
-    <Box>
-    <Box className="container">
-      <Header/>
-      <Box mt={16}>
-      <Banner/>
+    <Box overflow="hidden">
+      <Box className="banner">
+        <Header />
+        <Banner />
       </Box>
+      <About />
+      <Box px={{ lg: 12, md: 12, sm: 2, xs: 2 }}>
+        <Expertise />
       </Box>
-     
-        <About/>
-        <Box px={{lg:12,md:12,sm:2,xs:2}}>
-      <Expertise/>
-    
+      <Box className="skill">
+        <Skill />
       </Box>
-      <Box className='skill'>
-      <Skill/>
-      </Box> 
-       <Box px={{lg:12,md:12,sm:2,xs:2}}>
-      <Projects/>
-      <Contact/>
+      <Box px={{ lg: 12, md: 12, sm: 2, xs: 2 }}>
+        <Projects />
+        <Contact />
       </Box>
       <Box>
-        <Footer/>
+        <Footer />
       </Box>
     </Box>
   );

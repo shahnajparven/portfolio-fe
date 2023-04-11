@@ -1,4 +1,4 @@
-import { Box, Fade, Modal, Typography } from "@mui/material";
+import { Box, Button, Divider, Fade, Modal, Typography } from "@mui/material";
 import React, { useState } from "react";
 import profile from "../../assets/profile.png";
 import "../cards/Cards.css";
@@ -16,7 +16,7 @@ const style = {
   pb: 3,
   zIndex: 1,
 };
-const Cards = ({ emoji, heading, detail }) => {
+const Cards = ({ emoji, heading, detail,skill }) => {
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -93,13 +93,13 @@ const Cards = ({ emoji, heading, detail }) => {
             <Box display='flex' justifyContent='end' color='gray' p={1}  onClick={handleClose}><CloseIcon/></Box>
             <Box mt={4} px={4}>
             <Box>img</Box>
-            <Typography id="transition-modal-title" variant="h6" component="h2">
-              Web Design
+            <Typography id="transition-modal-title" variant="h6" color='#3f396d' component="h2" fontWeight='bold' py={2}>
+            {heading}
             </Typography>
-            <Typography id="transition-modal-description" sx={{ mt: 2 }}>
-              This we design projects.Expert of Frontend development including
-              techniques like.
-            </Typography>
+            <Divider/>
+            <Box id="transition-modal-description" sx={{ mt: 2 }}>
+            {skill}
+            </Box>
             </Box>
           </Box>
       </Modal>

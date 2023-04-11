@@ -1,20 +1,23 @@
 import { Box, Button, Typography } from "@mui/material";
+import { Link } from 'react-router-dom';
 import React from "react";
 import "./Header.css";
 import MenuIcon from "@mui/icons-material/Menu";
 const Header = () => {
   return (
-    <Box width="100%" className="header" position="fixed">
+    <Box width='100%' className="header" overflow='hidden' position='fixed'>
       <Box
-        px={{ lg: 12, md: 12, sm: 2, xs: 2 }}
         display="flex"
         justifyContent="space-between"
+        px={{lg:12,md:12,sm:2,xs:2}}
       >
-        <Box className="logo-name">
+        <Box className="logo-name" sx={{ cursor: "pointer"}} >
+          <Link to='/'>
           <h5>
             Shahnaj
             <span className="logo-span">Parven</span>
           </h5>
+          </Link>
         </Box>
         <Box
           mt={5}
@@ -27,7 +30,7 @@ const Header = () => {
           <Box className="header-list">
             <ul>
               <li>
-                <a href="home">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>
                 <a href="#about">About</a>
@@ -42,6 +45,7 @@ const Header = () => {
                 <a href="#project">Project</a>
               </li>
             </ul>
+             
           </Box>
           <Box mt={3}>
             <Box
@@ -51,8 +55,9 @@ const Header = () => {
               color="#ffffff"
               borderRadius="30px"
               className="hire-me"
+              sx={{ cursor: "pointer" }}
             >
-              Contact
+              <a href="#contact">Contact</a>
             </Box>
           </Box>
         </Box>

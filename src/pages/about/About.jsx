@@ -6,7 +6,7 @@ import comma from "../../assets/comma-icon.png";
 
 const About = () => {
   return (
-    <Box py={8} width="100%">
+    <Box py={8} width="100%" id="about" display="flex" justifyContent='center' alignItems='center'>
       <Box display="flex" gap={5} flexDirection={{lg:'row',sm:'column',md:'row',xs:'column'}} position='relative'>
         <Box display="flex" justifyContent='center' overflow='hidden' width={{lg:'50%',xs:'100%'}} py={5} className="half-circle">
         
@@ -48,7 +48,7 @@ const About = () => {
             <Typography pr={{ lg: 12, md: 12, sm: 2, xs: 2 }}  display='flex'
             justifyContent={{lg:'start',xs:'center'}} color="#3f396d" py={1} variant="span" fontSize={20} lineHeight={1.5}>
               I am a Software Developer ,I like Development,learn with new
-              technology and It keeps me motivated towards my work. I have completed my B.sc from Computer Science Engineering (CSE).
+              technology and exploring new things.I love to solve problems based on web development. I have completed my B.sc from Computer Science Engineering (CSE).
             </Typography>
             
           </Box>

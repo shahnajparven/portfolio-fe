@@ -13,7 +13,7 @@ import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 
 const Contact = () => {
   return (
-    <Box pt={10}>
+    <Box pt={10} id="contact">
       <Typography
         color="#6f34fe"
         variant="span"

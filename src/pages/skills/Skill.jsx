@@ -3,7 +3,7 @@ import React from "react";
 
 const Skill = () => {
   return (
-    <Box py={5} px={{ lg: 12, md: 12, sm: 2, xs: 2 }}>
+    <Box py={5} px={{ lg: 12, md: 12, sm: 2, xs: 2 }} id="skill">
       <Box display="flex" flexDirection={{ lg: "row", xs: "column" }} gap={2}>
         <Box width="100%" overflow="hidden" display="grid" justifyContent='center'>
           <Typography
@@ -21,15 +21,15 @@ const Skill = () => {
             width="100%"
             overflow="hidden"
             display="flex"
-            justifyContent="start"
+            justifyContent="center"
             flexDirection="row"
             gap={4}
             alignItems="center"
           >
             <Box
               className="skill-card"
-              height={100}
-              width={{ lg: 100, xs: "100%" }}
+              height={130}
+              width={{ lg: 130, xs: "100%" }}
               bgcolor="white"
               p={3}
               borderRadius={3}
@@ -56,8 +56,8 @@ const Skill = () => {
             </Box>
             <Box
               className="skill-card"
-              height={100}
-              width={{ lg: 100, xs: "100%" }}
+              height={130}
+              width={{ lg: 130, xs: "100%" }}
               bgcolor="white"
               p={3}
               borderRadius={3}
@@ -94,8 +94,8 @@ const Skill = () => {
           >
             <Box
               className="skill-card"
-              height={100}
-              width={{ lg: 100, xs: "100%" }}
+              height={130}
+              width={{ lg: 130, xs: "100%" }}
               bgcolor="white"
               p={3}
               borderRadius={3}
@@ -122,8 +122,8 @@ const Skill = () => {
             </Box>
             <Box
               className="skill-card"
-              height={100}
-              width={{ lg: 100, xs: "100%" }}
+              height={130}
+              width={{ lg: 130, xs: "100%" }}
               bgcolor="white"
               p={3}
               borderRadius={3}
@@ -150,7 +150,7 @@ const Skill = () => {
             </Box>
           </Box>
         </Box>
-        <Box width="100%" overflow="hidden">
+        <Box width="100%" overflow="hidden" display='flex' flexDirection='column' justifyContent='start'>
           <Box>
             <Typography
               variant="h5"
@@ -162,7 +162,7 @@ const Skill = () => {
               {" "}
               Frontend{" "}
             </Typography>{" "}
-            <Button sx={{ bgcolor: "#3f396d", my: 1 }} variant="contained">
+            <Button sx={{ bgcolor: "#3f396d", my: 1}} variant="contained">
               HTML5
             </Button>{" "}
             <Button sx={{ bgcolor: "#6f34fe", my: 1 }} variant="contained">

@@ -6,7 +6,7 @@ import Grid from "@mui/material/Grid";
 
 const Projects = () => {
   return (
-    <Box mt={8} width="100%">
+    <Box mt={8} width="100%" id="project">
       <Box>
         <Typography
           color="#3f396d"
