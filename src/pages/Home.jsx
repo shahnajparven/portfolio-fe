@@ -13,9 +13,11 @@ import Footer from "./footer/Footer";
 const Home = () => {
   return (
     <Box>
-    <Box className="container" px={{lg:12,md:12,sm:2,xs:2}}>
+    <Box className="container">
       <Header/>
+      <Box mt={16}>
       <Banner/>
+      </Box>
       </Box>
      
         <About/>

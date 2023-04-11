@@ -21,8 +21,8 @@ const Banner = ({ scaling }) => {
   }, []);
 
   return (
-    <Box display="flex" gap={2} justifyContent='center' flexDirection={{lg:"row",md:'column',sm:'column',xs:'column'}}>
-      <Box width='100%' mt={{lg:15,md:10,sm:2,xs:2}} className="banner-text">
+    <Box display="flex" gap={2} justifyContent='center' flexDirection={{lg:"row",md:'column',sm:'column',xs:'column'}} px={{lg:12,md:12,sm:2,xs:2}}>
+      <Box width='100%' mt={{lg:15,md:10,sm:2,xs:2}} className="banner-text" >
         <Box className="banner-heading" >
           <Box className="dynamic-txt">
             <Box my={3} >
