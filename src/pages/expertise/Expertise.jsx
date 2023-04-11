@@ -11,7 +11,7 @@ import webdevelopment from '../../assets/portfolio/webdevelopment.png';
 
 const Expertise = () => {
   return (
-    <Box width="100%" id="expertise">
+    <Box width="100%" id="expertise" height='auto'>
       <Box>
         <Typography
           color="#6f34fe"

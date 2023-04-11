@@ -6,7 +6,7 @@ import comma from "../../assets/comma-icon.png";
 
 const About = () => {
   return (
-    <Box py={8} width="100%" id="about" display="flex" justifyContent='center' alignItems='center'>
+    <Box width="100%" height='100vh' id="about" display="flex" justifyContent='center' alignItems='center'>
       <Box display="flex" gap={5} flexDirection={{lg:'row',sm:'column',md:'row',xs:'column'}} position='relative'>
         <Box display="flex" justifyContent='center' overflow='hidden' width={{lg:'50%',xs:'100%'}} py={5} className="half-circle">
         

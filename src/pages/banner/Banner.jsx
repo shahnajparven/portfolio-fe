@@ -43,10 +43,10 @@ const Banner = ({ scaling }) => {
             className="hire-me"
             color='white'
           >
-            <a href="#Contact">Hire Me</a>
+            <a href="#contact">Hire Me</a>
           </Box>
           <Box mt={1} borderBottom={2} borderColor="#6f34fe">
-            <a href="#Portfolio" class="See-btn">
+            <a href="#project" class="See-btn">
               See My Work
             </a>
           </Box>

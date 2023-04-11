@@ -4,6 +4,13 @@ import { Box } from "@mui/material";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import houseRenting from '../../assets/portfolio/webdevelopment.png';
+import education from '../../assets/portfolio/education.png';
+import hosting from '../../assets/portfolio/hosting.png';
+import market from '../../assets/portfolio/market.png';
+import airline from '../../assets/portfolio/airline.png';
+import dashboard from '../../assets/portfolio/dashboard.png';
+import { Link } from "react-router-dom";
+
 const Projects = () => {
   return (
     <Box mt={8} width="100%" id="project">
@@ -39,12 +46,130 @@ const Projects = () => {
                     fontWeight="bold"
                     color="#3f396d"
                   >
-                    Online House Renting Platfrom
+                    Online House Renting Platform
                   </Typography>
                   <Box py={2}>
-                    <Button variant="contained">React</Button>{" "}
-                    <Button variant="contained">React</Button>
+                    <Button variant="contained"  sx={{ bgcolor: "#3f396d", my: 1 }}>React</Button>{" "}
+                    <Button variant="contained"  sx={{ bgcolor: "#6f34fe", my: 1 }}>Material Ui</Button>{" "}
+                    <Button variant="contained"  sx={{ bgcolor: "#3f396d", my: 1 }}>Redux</Button>{" "}
+                    <Button variant="contained"  sx={{ bgcolor: "#6f34fe", my: 1 }}>NodeJs</Button>{" "}
+                    <Button variant="contained" sx={{ bgcolor: "#3f396d", my: 1 }}>ExpressJs</Button>{" "}
+                    <Button variant="contained" sx={{ bgcolor: "#6f34fe", my: 1 }}>Stripe</Button>{" "}
+                    <Button variant="contained" sx={{ bgcolor: "#3f396d", my: 1 }}>MongoDB</Button>{" "}
+                    <Button variant="contained" sx={{ bgcolor: "#6f34fe", my: 1 }}>Cloudinary</Button>{" "}
                   </Box>
+                  <Link to="https://github.com/shahnajparven/mernProjectRenthouse">
+                  <Box display='flex' justifyContent='center' border={1} p={1}>Github</Box>
+                  </Link>
+                </Box>
+              </Box>
+            </Grid>
+           
+            <Grid item lg={4} md={6} xs={12}>
+              <Box className="project-card" p={2}>
+                <Link to="https://glittery-figolla-f1c5ee.netlify.app/">
+                <Box
+                  bgcolor="white"
+                  height={300}
+                  display="flex"
+                  justifyContent="center"
+                  alignItems="center"
+                >
+                  <img src={dashboard} width="100%" height='auto' overflow='hidden'/>
+                </Box>
+                </Link>
+                <Box py={5}>
+                  {" "}
+                  <Typography
+                    variant="h5"
+                    fontSize={20}
+                    fontWeight="bold"
+                    color="#3f396d"
+                  >
+                 Admin Dashboard of Shop Bd
+                  </Typography>
+                  <Box py={2}>
+                  <Button variant="contained"  sx={{ bgcolor: "#3f396d", my: 1 }}>React</Button>{" "}
+                    <Button variant="contained"  sx={{ bgcolor: "#6f34fe", my: 1 }}>Material Ui</Button>{" "}
+                    <Button variant="contained"  sx={{ bgcolor: "#3f396d", my: 1 }}>Redux</Button>{" "}
+                    <Button variant="contained"  sx={{ bgcolor: "#6f34fe", my: 1 }}>NodeJs</Button>{" "}
+                    <Button variant="contained" sx={{ bgcolor: "#3f396d", my: 1 }}>ExpressJs</Button>{" "}
+                    <Button variant="contained" sx={{ bgcolor: "#3f396d", my: 1 }}>MongoDB</Button>{" "}
+                  </Box>
+                  <Link to="https://github.com/shahnajparven">
+                  <Box display='flex' justifyContent='center' border={1} p={1}>Github</Box>
+                  </Link>
+                </Box>
+              </Box>
+            </Grid>
+            <Grid item lg={4} md={6} xs={12}>
+              <Box className="project-card" p={2}>
+              <Link to="https://funny-wisp-48f11f.netlify.app/">
+                <Box
+                  bgcolor="white"
+                  height={300}
+                  display="flex"
+                  justifyContent="center"
+                  alignItems="center"
+                >
+                   <img src={education} width="100%" height='auto' overflow='hidden'/>
+                  
+                </Box>
+                </Link>
+                <Box py={5}>
+                  {" "}
+                  <Typography
+                    variant="h5"
+                    fontSize={20}
+                    fontWeight="bold"
+                    color="#3f396d"
+                  >
+                    Education Management
+                  </Typography>
+                  <Box py={2}>
+                  <Button variant="contained" sx={{ bgcolor: "#3f396d", my: 1 }}>Html5</Button>{" "}
+                  <Button variant="contained" sx={{ bgcolor: "#6f34fe", my: 1 }}>Css3</Button>{" "}
+                  <Button variant="contained" sx={{ bgcolor: "#3f396d", my: 1 }}>JavaScript</Button>{" "}
+                  <Button variant="contained" sx={{ bgcolor: "#6f34fe", my: 1 }}>JQuery</Button>{" "}
+                  </Box>
+                  <Link to="https://github.com/shahnajparven/education-society">
+                  <Box display='flex' justifyContent='center' border={1} p={1}>Github</Box>
+                  </Link>
+                </Box>
+              </Box>
+             
+            </Grid>
+            <Grid item lg={4} md={6} xs={12}>
+              <Box className="project-card" p={2}>
+                <Box
+                  bgcolor="white"
+                  height={300}
+                  display="flex"
+                  justifyContent="center"
+                  alignItems="center"
+                >
+                  <img src={market} width="100%" height='auto' overflow='hidden'/>
+                </Box>
+                <Box py={5}>
+                  <Typography
+                    variant="h5"
+                    fontSize={20}
+                    fontWeight="bold"
+                    color="#3f396d"
+                  >
+                    Market Bangla Online Shop
+                  </Typography>
+                  <Box py={2}>
+                  <Button variant="contained" sx={{ bgcolor: "#3f396d", my: 1 }}>Html5</Button>{" "}
+                  <Button variant="contained" sx={{ bgcolor: "#6f34fe", my: 1 }}>Css3</Button>{" "}
+                  <Button variant="contained" sx={{ bgcolor: "#3f396d", my: 1 }}>Bootstrap</Button>{" "}
+                  <Button variant="contained" sx={{ bgcolor: "#6f34fe", my: 1 }}>JavaScript</Button>{" "}
+                  <Button variant="contained" sx={{ bgcolor: "#3f396d", my: 1 }}>JQuery</Button>{" "}
+                  
+                  </Box>
+                  <Link to="https://github.com/shahnajparven/ecommerce-project">
+                  <Box display='flex' justifyContent='center' border={1} p={1}>Github</Box>
+                  </Link>
                 </Box>
               </Box>
             </Grid>
@@ -57,7 +182,8 @@ const Projects = () => {
                   justifyContent="center"
                   alignItems="center"
                 >
-                  Img
+                  
+                  <img src={hosting} width="100%" height='auto' overflow='hidden'/>
                 </Box>
                 <Box py={5}>
                   {" "}
@@ -67,67 +193,17 @@ const Projects = () => {
                     fontWeight="bold"
                     color="#3f396d"
                   >
-                    Online House Renting Platfrom
+                    Web Hosting Site
                   </Typography>
                   <Box py={2}>
-                    <Button variant="contained">React</Button>{" "}
-                    <Button variant="contained">React</Button>
+                  <Button variant="contained" sx={{ bgcolor: "#3f396d", my: 1 }}>Html5</Button>{" "}
+                  <Button variant="contained" sx={{ bgcolor: "#6f34fe", my: 1 }}>Css3</Button>{" "}
+                  <Button variant="contained" sx={{ bgcolor: "#3f396d", my: 1 }}>JavaScript</Button>{" "}
+                  <Button variant="contained" sx={{ bgcolor: "#6f34fe", my: 1 }}>JQuery</Button>{" "}
                   </Box>
-                </Box>
-              </Box>
-            </Grid>
-            <Grid item lg={4} md={6} xs={12}>
-              <Box className="project-card" p={2}>
-                <Box
-                  bgcolor="white"
-                  height={300}
-                  display="flex"
-                  justifyContent="center"
-                  alignItems="center"
-                >
-                  Img
-                </Box>
-                <Box py={5}>
-                  {" "}
-                  <Typography
-                    variant="h5"
-                    fontSize={20}
-                    fontWeight="bold"
-                    color="#3f396d"
-                  >
-                    Online House Renting Platfrom
-                  </Typography>
-                  <Box py={2}>
-                    <Button variant="contained">React</Button>{" "}
-                    <Button variant="contained">React</Button>
-                  </Box>
-                </Box>
-              </Box>
-            </Grid>
-            <Grid item lg={4} md={6} xs={12}>
-              <Box className="project-card" p={2}>
-                <Box
-                  bgcolor="white"
-                  height={300}
-                  display="flex"
-                  justifyContent="center"
-                  alignItems="center"
-                >
-                  Img
-                </Box>
-                <Box py={5}>
-                  <Typography
-                    variant="h5"
-                    fontSize={20}
-                    fontWeight="bold"
-                    color="#3f396d"
-                  >
-                    Online House Renting Platfrom
-                  </Typography>
-                  <Box py={2}>
-                    <Button variant="contained">React</Button>{" "}
-                    <Button variant="contained">React</Button>
-                  </Box>
+                  <Link to="https://github.com/shahnajparven/joomhost-design">
+                  <Box display='flex' justifyContent='center' border={1} p={1}>Github</Box>
+                  </Link>
                 </Box>
               </Box>
             </Grid>
@@ -140,7 +216,7 @@ const Projects = () => {
                   justifyContent="center"
                   alignItems="center"
                 >
-                  Img
+                  <img src={airline} width="100%" height='auto' overflow='hidden'/>
                 </Box>
                 <Box py={5}>
                   <Typography
@@ -149,15 +225,22 @@ const Projects = () => {
                     fontWeight="bold"
                     color="#3f396d"
                   >
-                    Online House Renting Platfrom
+                    Airlines Management
                   </Typography>
                   <Box py={2}>
-                    <Button variant="contained">React</Button>{" "}
-                    <Button variant="contained">React</Button>
+                  <Button variant="contained" sx={{ bgcolor: "#3f396d", my: 1 }}>Html5</Button>{" "}
+                  <Button variant="contained" sx={{ bgcolor: "#6f34fe", my: 1 }}>Css3</Button>{" "}
+                  <Button variant="contained" sx={{ bgcolor: "#3f396d", my: 1 }}>Bootstrap</Button>{" "}
+                  <Button variant="contained" sx={{ bgcolor: "#6f34fe", my: 1 }}>JavaScript</Button>{" "}
+                  <Button variant="contained" sx={{ bgcolor: "#3f396d", my: 1 }}>JQuery</Button>{" "}
                   </Box>
+                  <Link to="https://github.com/shahnajparven/education-society">
+                  <Box display='flex' justifyContent='center' border={1} p={1}>Github</Box>
+                  </Link>
                 </Box>
               </Box>
             </Grid>
+            
           </Grid>
         </Box>
       </Box>
