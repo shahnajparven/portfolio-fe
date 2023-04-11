@@ -3,7 +3,7 @@ import { Button, Typography } from "@mui/material";
 import { Box } from "@mui/material";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
-
+import houseRenting from '../../assets/portfolio/webdevelopment.png';
 const Projects = () => {
   return (
     <Box mt={8} width="100%" id="project">
@@ -23,14 +23,14 @@ const Projects = () => {
             <Grid item lg={4} md={6} xs={12}>
               <Box className="project-card" p={2}>
                 <Box
-                  bgcolor="#3f396d"
+                  bgcolor="white"
                   // width="100%"
                   height={300}
                   display="flex"
                   justifyContent="center"
                   alignItems="center"
                 >
-                  Img
+                  <img src={houseRenting} width="100%" height='auto' overflow='hidden'/>
                 </Box>
                 <Box py={5}>
                   <Typography
@@ -41,7 +41,7 @@ const Projects = () => {
                   >
                     Online House Renting Platfrom
                   </Typography>
-                  <Box py={1}>
+                  <Box py={2}>
                     <Button variant="contained">React</Button>{" "}
                     <Button variant="contained">React</Button>
                   </Box>
@@ -51,7 +51,7 @@ const Projects = () => {
             <Grid item lg={4} md={6} xs={12}>
               <Box className="project-card" p={2}>
                 <Box
-                  bgcolor="#3f396d"
+                  bgcolor="white"
                   height={300}
                   display="flex"
                   justifyContent="center"
@@ -69,7 +69,7 @@ const Projects = () => {
                   >
                     Online House Renting Platfrom
                   </Typography>
-                  <Box py={1}>
+                  <Box py={2}>
                     <Button variant="contained">React</Button>{" "}
                     <Button variant="contained">React</Button>
                   </Box>
@@ -79,7 +79,7 @@ const Projects = () => {
             <Grid item lg={4} md={6} xs={12}>
               <Box className="project-card" p={2}>
                 <Box
-                  bgcolor="#3f396d"
+                  bgcolor="white"
                   height={300}
                   display="flex"
                   justifyContent="center"
@@ -97,7 +97,7 @@ const Projects = () => {
                   >
                     Online House Renting Platfrom
                   </Typography>
-                  <Box py={1}>
+                  <Box py={2}>
                     <Button variant="contained">React</Button>{" "}
                     <Button variant="contained">React</Button>
                   </Box>
@@ -107,7 +107,7 @@ const Projects = () => {
             <Grid item lg={4} md={6} xs={12}>
               <Box className="project-card" p={2}>
                 <Box
-                  bgcolor="#3f396d"
+                  bgcolor="white"
                   height={300}
                   display="flex"
                   justifyContent="center"
@@ -124,7 +124,7 @@ const Projects = () => {
                   >
                     Online House Renting Platfrom
                   </Typography>
-                  <Box py={1}>
+                  <Box py={2}>
                     <Button variant="contained">React</Button>{" "}
                     <Button variant="contained">React</Button>
                   </Box>
@@ -134,7 +134,7 @@ const Projects = () => {
             <Grid item lg={4} md={6} xs={12}>
               <Box p={2} className="project-card">
                 <Box
-                  bgcolor="#3f396d"
+                  bgcolor="white"
                   height={300}
                   display="flex"
                   justifyContent="center"
@@ -151,7 +151,7 @@ const Projects = () => {
                   >
                     Online House Renting Platfrom
                   </Typography>
-                  <Box py={1}>
+                  <Box py={2}>
                     <Button variant="contained">React</Button>{" "}
                     <Button variant="contained">React</Button>
                   </Box>

@@ -5,6 +5,9 @@ import CodeIcon from "@mui/icons-material/Code";
 import SubtitlesIcon from "@mui/icons-material/Subtitles";
 import WebAssetIcon from "@mui/icons-material/WebAsset";
 import Cards from "../cards/Cards";
+import graphics from '../../assets/portfolio/graphic.png';
+import webdesign from '../../assets/portfolio/webdesign.png';
+import webdevelopment from '../../assets/portfolio/webdevelopment.png';
 
 const Expertise = () => {
   return (
@@ -32,6 +35,7 @@ const Expertise = () => {
               emoji={<WebIcon fontSize="large" />}
               heading="Web Design"
               detail="Expert of Frontend development including techniques like Bootstrap,jQuery..."
+              image={webdesign}
               skill={
                 <Box>
                   <Button
@@ -113,7 +117,8 @@ const Expertise = () => {
               emoji={<CodeIcon fontSize="large" />}
               heading="Web Development"
               detail="For Developing a side used NodeJs, ExpressJs, MongoDB, MySQL database,PHP..."
-           skill={<Box>
+              image={webdevelopment}
+          skill={<Box>
             <Button sx={{ bgcolor: "#3f396d", my: 1 }} variant="contained">
               NodeJs
             </Button>{" "}
@@ -141,6 +146,7 @@ const Expertise = () => {
               emoji={<SubtitlesIcon fontSize="large" />}
               heading="UI/UX Design"
               detail="Figma, Adobe XD using for UI/UX design..."
+              image={graphics}
               skill={<Box>
                 <Button sx={{ bgcolor: "#3f396d", my: 1 }} variant="contained">
                 Figma
@@ -156,7 +162,8 @@ const Expertise = () => {
               emoji={<WebAssetIcon fontSize="large" />}
               heading="Graphic Design"
               detail="Photoshop and Illustator using for Graphic Design..."
-              skill={<Box>
+              image={graphics}
+             skill={<Box>
                 <Button sx={{ bgcolor: "#3f396d", my: 1 }} variant="contained">
                 Photoshop
                 </Button>{" "}

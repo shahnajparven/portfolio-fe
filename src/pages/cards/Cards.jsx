@@ -16,7 +16,7 @@ const style = {
   pb: 3,
   zIndex: 1,
 };
-const Cards = ({ emoji, heading, detail,skill }) => {
+const Cards = ({ emoji, heading, detail,skill,image }) => {
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -92,7 +92,9 @@ const Cards = ({ emoji, heading, detail,skill }) => {
           >
             <Box display='flex' justifyContent='end' color='gray' p={1}  onClick={handleClose}><CloseIcon/></Box>
             <Box mt={4} px={4}>
-            <Box>img</Box>
+            <Box>
+              <img width="100%" height='auto' overflow='hidden' src={image}/>
+            </Box>
             <Typography id="transition-modal-title" variant="h6" color='#3f396d' component="h2" fontWeight='bold' py={2}>
             {heading}
             </Typography>
