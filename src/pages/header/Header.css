@@ -57,7 +57,7 @@
     transition: all .5s;
     z-index: 1;
 }
-#check:checked ~ ul{
+/* #check:checked ~ ul{
     left: 0;
 }
 #check:checked ~ label #btn{
@@ -65,5 +65,5 @@
 }
 #check:checked ~ label #cancel{
     display: block;
-}
+} */
 }
