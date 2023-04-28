@@ -29,6 +29,7 @@ const Projects = () => {
           <Grid container spacing={5}>
             <Grid item lg={4} md={6} xs={12}>
               <Box className="project-card" p={2}>
+                <Link to='https://mern-renthouse.herokuapp.com/'>
                 <Box
                   bgcolor="white"
                   // width="100%"
@@ -39,6 +40,7 @@ const Projects = () => {
                 >
                   <img src={houseRenting} width="100%" height='auto' overflow='hidden'/>
                 </Box>
+                </Link>
                 <Box py={5}>
                   <Typography
                     variant="h5"
@@ -96,7 +98,7 @@ const Projects = () => {
                     <Button variant="contained" sx={{ bgcolor: "#3f396d", my: 1 }}>ExpressJs</Button>{" "}
                     <Button variant="contained" sx={{ bgcolor: "#3f396d", my: 1 }}>MongoDB</Button>{" "}
                   </Box>
-                  <Link to="https://github.com/shahnajparven">
+                  <Link to="https://github.com/shahnajparven/dashboard">
                   <Box display='flex' justifyContent='center' border={1} p={1}>Github</Box>
                   </Link>
                 </Box>
@@ -238,7 +240,7 @@ const Projects = () => {
                   <Button variant="contained" sx={{ bgcolor: "#6f34fe", my: 1 }}>JavaScript</Button>{" "}
                   <Button variant="contained" sx={{ bgcolor: "#3f396d", my: 1 }}>JQuery</Button>{" "}
                   </Box>
-                  <Link to="https://github.com/shahnajparven/education-society">
+                  <Link to="">
                   <Box display='flex' justifyContent='center' border={1} p={1}>Github</Box>
                   </Link>
                 </Box>
