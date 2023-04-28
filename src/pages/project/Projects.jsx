@@ -141,6 +141,7 @@ const Projects = () => {
             </Grid>
             <Grid item lg={4} md={6} xs={12}>
               <Box className="project-card" p={2}>
+                <Link to="https://lighthearted-sunflower-28e89c.netlify.app/">
                 <Box
                   bgcolor="white"
                   height={300}
@@ -150,6 +151,7 @@ const Projects = () => {
                 >
                   <img src={market} width="100%" height='auto' overflow='hidden'/>
                 </Box>
+                </Link>
                 <Box py={5}>
                   <Typography
                     variant="h5"
@@ -175,6 +177,7 @@ const Projects = () => {
             </Grid>
             <Grid item lg={4} md={6} xs={12}>
               <Box className="project-card" p={2}>
+                <Link to='https://clinquant-clafoutis-c67759.netlify.app/'>
                 <Box
                   bgcolor="white"
                   height={300}
@@ -185,6 +188,7 @@ const Projects = () => {
                   
                   <img src={hosting} width="100%" height='auto' overflow='hidden'/>
                 </Box>
+                </Link>
                 <Box py={5}>
                   {" "}
                   <Typography
