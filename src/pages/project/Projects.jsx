@@ -9,6 +9,9 @@ import hosting from '../../assets/portfolio/hosting.png';
 import market from '../../assets/portfolio/market.png';
 import airline from '../../assets/portfolio/airline.png';
 import dashboard from '../../assets/portfolio/dashboard.png';
+import ecommerce from '../../assets/portfolio/ecommerce.png';
+import atrip from '../../assets/portfolio/atrip.png';
+import todo from '../../assets/portfolio/todo.png';
 import { Link } from "react-router-dom";
 
 const Projects = () => {
@@ -27,6 +30,127 @@ const Projects = () => {
         </Typography>
         <Box p={2} mt={2}>
           <Grid container spacing={5}>
+
+          <Grid item lg={4} md={6} xs={12}>
+              <Box className="project-card" p={2}>
+                <Link to="https://sparkling-marzipan-09dba6.netlify.app/">
+                <Box
+                  bgcolor="white"
+                  height={300}
+                  display="flex"
+                  justifyContent="center"
+                  alignItems="center"
+                >
+                  <img src={ecommerce} width="100%" height='auto' overflow='hidden'/>
+                </Box>
+                </Link>
+                <Box py={5}>
+                  {" "}
+                  <Typography
+                    variant="h5"
+                    fontSize={20}
+                    fontWeight="bold"
+                    color="#3f396d"
+                  >
+                 Ecommerce Site
+                  </Typography>
+                  <Box py={2}>
+                  <Button variant="contained"  sx={{ bgcolor: "#3f396d", my: 1 }}>React</Button>{" "}
+                  <Button variant="contained" sx={{ bgcolor: "#6f34fe", my: 1 }}>Stripe</Button>{" "}
+                    <Button variant="contained"  sx={{ bgcolor: "#6f34fe", my: 1 }}>Material Ui</Button>{" "}
+                    <Button variant="contained"  sx={{ bgcolor: "#3f396d", my: 1 }}>Redux toolkit</Button>{" "}
+                    <Button variant="contained"  sx={{ bgcolor: "#6f34fe", my: 1 }}>NodeJs</Button>{" "}
+                    <Button variant="contained" sx={{ bgcolor: "#3f396d", my: 1 }}>ExpressJs</Button>{" "}
+                    <Button variant="contained" sx={{ bgcolor: "#3f396d", my: 1 }}>MongoDB</Button>{" "}
+                    <Button variant="contained" sx={{ bgcolor: "#6f34fe", my: 1 }}>Cloudinary</Button>{" "}
+                    <Button variant="contained" sx={{ bgcolor: "#6f34fe", my: 1 }}>React hook</Button>{" "}
+                  </Box>
+                  <Link to="https://github.com/shahnajparven/ecommerce">
+                  <Box display='flex' justifyContent='center' border={1} p={1}>Github</Box>
+                  </Link>
+                </Box>
+              </Box>
+            </Grid>
+            <Grid item lg={4} md={6} xs={12}>
+              <Box className="project-card" p={2}>
+                <Link to="https://netlify-blogging-site.netlify.app/">
+                <Box
+                  bgcolor="white"
+                  height={300}
+                  display="flex"
+                  justifyContent="center"
+                  alignItems="center"
+                >
+                  <img src={atrip} width="100%" height='auto' overflow='hidden'/>
+                </Box>
+                </Link>
+                <Box py={5}>
+                  {" "}
+                  <Typography
+                    variant="h5"
+                    fontSize={20}
+                    fontWeight="bold"
+                    color="#3f396d"
+                  >
+                Travel Site
+                  </Typography>
+                  <Box py={2}>
+                  <Button variant="contained"  sx={{ bgcolor: "#3f396d", my: 1 }}>React</Button>{" "}
+                  <Button variant="contained" sx={{ bgcolor: "#6f34fe", my: 1 }}>Stripe</Button>{" "}
+                    <Button variant="contained"  sx={{ bgcolor: "#6f34fe", my: 1 }}>Material Ui</Button>{" "}
+                    <Button variant="contained"  sx={{ bgcolor: "#3f396d", my: 1 }}>Redux toolkit</Button>{" "}
+                    <Button variant="contained"  sx={{ bgcolor: "#6f34fe", my: 1 }}>NodeJs</Button>{" "}
+                    <Button variant="contained" sx={{ bgcolor: "#3f396d", my: 1 }}>ExpressJs</Button>{" "}
+                    <Button variant="contained" sx={{ bgcolor: "#3f396d", my: 1 }}>MongoDB</Button>{" "}
+                    <Button variant="contained" sx={{ bgcolor: "#6f34fe", my: 1 }}>Cloudinary</Button>{" "}
+                    <Button variant="contained" sx={{ bgcolor: "#6f34fe", my: 1 }}>React hook</Button>{" "}
+                  </Box>
+                  <Link to="https://github.com/shahnajparven/travel-project">
+                  <Box display='flex' justifyContent='center' border={1} p={1}>Github</Box>
+                  </Link>
+                </Box>
+              </Box>
+            </Grid>
+            <Grid item lg={4} md={6} xs={12}>
+              <Box className="project-card" p={2}>
+                <Link to="https://bespoke-trifle-d17f05.netlify.app/">
+                <Box
+                  bgcolor="white"
+                  height={300}
+                  display="flex"
+                  justifyContent="center"
+                  alignItems="center"
+                >
+                  <img src={todo} width="100%" height='auto' overflow='hidden'/>
+                </Box>
+                </Link>
+                <Box py={5}>
+                  {" "}
+                  <Typography
+                    variant="h5"
+                    fontSize={20}
+                    fontWeight="bold"
+                    color="#3f396d"
+                  >
+                Online Course Site
+                  </Typography>
+                  <Box py={2}>
+                  <Button variant="contained"  sx={{ bgcolor: "#3f396d", my: 1 }}>React</Button>{" "}
+                  <Button variant="contained" sx={{ bgcolor: "#6f34fe", my: 1 }}>Stripe</Button>{" "}
+                    <Button variant="contained"  sx={{ bgcolor: "#6f34fe", my: 1 }}>Material Ui</Button>{" "}
+                    <Button variant="contained"  sx={{ bgcolor: "#3f396d", my: 1 }}>Redux toolkit</Button>{" "}
+                    <Button variant="contained"  sx={{ bgcolor: "#6f34fe", my: 1 }}>NodeJs</Button>{" "}
+                    <Button variant="contained" sx={{ bgcolor: "#3f396d", my: 1 }}>ExpressJs</Button>{" "}
+                    <Button variant="contained" sx={{ bgcolor: "#3f396d", my: 1 }}>MongoDB</Button>{" "}
+                    <Button variant="contained" sx={{ bgcolor: "#6f34fe", my: 1 }}>Cloudinary</Button>{" "}
+                    <Button variant="contained" sx={{ bgcolor: "#6f34fe", my: 1 }}>React hook</Button>{" "}
+                  </Box>
+                  <Link to="https://github.com/shahnajparven/todo-frontend">
+                  <Box display='flex' justifyContent='center' border={1} p={1}>Github</Box>
+                  </Link>
+                </Box>
+              </Box>
+            </Grid>
             <Grid item lg={4} md={6} xs={12}>
               <Box className="project-card" p={2}>
                 <Link to='https://mern-renthouse.herokuapp.com/'>

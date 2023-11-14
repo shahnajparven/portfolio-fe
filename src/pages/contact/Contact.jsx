@@ -68,7 +68,7 @@ const Contact = () => {
                   Address:
                 </Typography>
                 <Typography variant="span" lineHeight={1.4}>
-                  House No-63, Road No-19,Sector-11, Uttara.
+                  77/i/a,East Rampura,Dhaka.
                 </Typography>
               </Box>
             </Box>
