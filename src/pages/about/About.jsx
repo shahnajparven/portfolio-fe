@@ -52,10 +52,10 @@ const About = () => {
             </Typography>
             
           </Box>
-          <Box display='flex'
+          {/* <Box display='flex'
             justifyContent={{lg:'start',xs:'center'}} >
           <Button  sx={{bgcolor:'#fca61f', mx:9, px:5, py:1,color:'white',borderRadius:5,}}>Download CV</Button>
-          </Box>
+          </Box> */}
         </Box> 
       </Box>
     </Box>
