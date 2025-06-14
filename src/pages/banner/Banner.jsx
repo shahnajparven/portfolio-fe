@@ -22,7 +22,7 @@ const Banner = ({ scaling }) => {
 
   return (
     <Box mt={16} width='100%' display="flex" gap={2} justifyContent='center' flexDirection={{lg:"row",md:'column',sm:'column',xs:'column'}}>
-      <Box mt={{lg:15,md:10,sm:2,xs:2}} className="banner-text" overflow='hidden'>
+      <Box mt={{lg:15,md:10,sm:2,xs:2}} px={2} className="banner-text" overflow='hidden'>
         <Box className="banner-heading" >
           <Box className="dynamic-txt">
             <Box my={3} >
