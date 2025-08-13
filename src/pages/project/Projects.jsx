@@ -153,7 +153,7 @@ const Projects = () => {
             </Grid>
             <Grid item lg={4} md={6} xs={12}>
               <Box className="project-card" p={2}>
-                <Link to='https://mern-renthouse.herokuapp.com/'>
+                <Link to='https://regal-sopapillas-10270c.netlify.app/'>
                 <Box
                   bgcolor="white"
                   // width="100%"
