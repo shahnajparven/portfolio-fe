@@ -192,10 +192,14 @@ const Skill = () => {
             <Button variant="contained" sx={{ bgcolor: "#3f396d", my: 1 }}>
               Redux Toolkit
             </Button>{" "}
+                       <Button sx={{ bgcolor: "#fca61f", my: 1 }} variant="contained">
+              Zustand
+            </Button>{" "}
             <Button variant="contained" sx={{ bgcolor: "#6f34fe", my: 1 }}>
               Context API
             </Button>{" "}
-            <Button sx={{ bgcolor: "#fca61f", my: 1 }} variant="contained">
+
+               <Button variant="contained" sx={{ bgcolor: "#3f396d", my: 1 }}>
               React Query
             </Button>{" "}
           </Box>
